@@ -1,10 +1,12 @@
 import requests
 
-url = "http://20.106.56.49:7000/query/user/a2"  # Flask server URL
+url = "http://20.106.56.49:7000/query/user/a2"  
 
 payload = {
     "username": "therock",
-    "sessions": ["sess1", "sess2", "sess3", "sess4", "sess5"]
+    "sessions": [
+    "72834751862%3A8Iod3xoTDGeHnE%3A0%3AAYddVMv0sxQgcXigTPcR6Ambp1DkiYT236Id7A02Gw","72834751862%3A8Iod3xoTDGeHnE%3A0%3AAYddVMv0sxQgcXigTPcR6Ambp1DkiYT236Id7A02Gw",
+    "72834751862%3A8Iod3xoTDGeHnE%3A0%3AAYddVMv0sxQgcXigTPcR6Ambp1DkiYT236Id7A02Gw","72834751862%3A8Iod3xoTDGeHnE%3A0%3AAYddVMv0sxQgcXigTPcR6Ambp1DkiYT236Id7A02Gw","72834751862%3A8Iod3xoTDGeHnE%3A0%3AAYddVMv0sxQgcXigTPcR6Ambp1DkiYT236Id7A02Gw"]
 }
 
 headers = {

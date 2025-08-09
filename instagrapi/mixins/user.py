@@ -14,7 +14,7 @@ from instagrapi.exceptions import (
 from instagrapi.extractors import extract_user_gql, extract_user_short, extract_user_v1, extract_user_a2
 from instagrapi.types import Relationship, RelationshipShort, User, UserShort
 from instagrapi.utils import json_value
-cl=clust(token="0daja8wqtv3o16jpszpj582tbyduul3t")
+cl=clust(token="q8pw5b23vrgt2f50vxgdyblrg5k763yv")
 MAX_USER_COUNT = 200
 INFO_FROM_MODULES = ("self_profile", "feed_timeline", "reel_feed_timeline")
 
