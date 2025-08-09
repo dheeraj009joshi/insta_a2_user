@@ -1,6 +1,6 @@
 import requests
 
-url = "http://127.0.0.1:5000/query/user/a2"  # Flask server URL
+url = "http://20.106.56.49:7000/query/user/a2"  # Flask server URL
 
 payload = {
     "username": "therock",
