@@ -29,7 +29,7 @@ def submit():
     cl=Client()
     session_id=random.choice(sessions)
     try:
-        cl.login_by_sessionid(session_id)
+        # cl.login_by_sessionid(session_id)
         print(cl.get_settings())
         user=cl.user__info_by_username_a2(username)
 

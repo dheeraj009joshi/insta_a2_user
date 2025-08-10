@@ -1,6 +1,6 @@
 import requests
 
-url = "http://20.106.56.49:7000/query/user/a2"  
+url = "http://56.228.26.41:7000/query/user/a2"  
 
 payload = {
     "username": "therock",
