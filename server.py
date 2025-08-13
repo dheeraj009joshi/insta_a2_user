@@ -38,7 +38,8 @@ def submit():
             "user": user,
             "sessions":session_id
         }), 200
-    except:
+    except Exception as e:
+        print(e)
         return jsonify({"error": "Failed to retrieve user information"}), 500
 
 if __name__ == "__main__":
